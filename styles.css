@@ -113,13 +113,25 @@ http://learn.shayhowe.com/html-css/opening-the-box-model/#practice-1
 }
 /* end of Grid */
 
-section {
+.visualizer {
+  height: 200px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.code {
+  height: 400px;
+}
+
+.visualizer,
+.code {
   background-color: lightgrey;
 }
 
 .visualizer,
 .slider,
 .code {
-  height: 200px;
   margin-top: 20px;
 }
